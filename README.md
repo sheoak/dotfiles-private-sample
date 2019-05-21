@@ -1,7 +1,8 @@
 
 # Private dotfiles sample
 
-This is a sample meant to be used with my [dotfiles repository]().
+This is a sample meant to be used with my 
+[dotfiles repository](https://github.com/sheoak/dotfiles).
 
 I store local and private dotfiles in separate folder and repository for easy 
 maintenance. When installing a new machine I only have to change the 
@@ -9,6 +10,9 @@ maintenance. When installing a new machine I only have to change the
 
 - .dotfiles-private: private settings (accounts, personal URL…)
 - .dotfiles-local:   local settings (monitor, DPI, themes, performances …)
+
+You can find a sample of local dotfiles on my 
+[mid 2011 macbook air dotfiles repository](https://github.com/sheoak/dotfiles-macbook-air-mid-2011)
 
 Note that, when possible, the configuration use *Unix pass*, for safety reasons.
 You can fork this repository and push it to a private one, then clone it in 
