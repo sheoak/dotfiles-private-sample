@@ -1,0 +1,4 @@
+
+# uncomment if you set a password in mpd
+# then change the password to mpd's password
+# mpd_host = "changeme@127.0.0.1"

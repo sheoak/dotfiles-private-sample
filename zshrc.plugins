@@ -1,0 +1,5 @@
+
+plugins+=(
+    my-private-plugin,
+    another-private-plugin
+)

@@ -1,0 +1,13 @@
+
+! This configuration will be merge with ~/.Xresources on X startup
+
+! I3 monitor:
+*monitor: eDP-1
+*monitorext: HDMI-1
+
+! I3 modifiers:
+i3wm*mod: Mod1
+i3wm*win: Mod4
+
+! I3 font
+i3wm*font: pango:Deja Vu Sans 8

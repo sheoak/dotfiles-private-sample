@@ -1,0 +1,18 @@
+
+set pgp_sign_as = YOUR_PGP_KEY_GOES_HERE
+
+# private settings, do not commit
+set folder      = "$HOME/.mail"
+set spoolfile   = "+myaccount/Inbox"
+set record      = "+myaccount/Envoyes"
+set postponed   = "+myaccount/Brouillons"
+set trash       = "+myaccount/Corbeille"
+set realname    = "John Doe"
+set from        = "myaccount@mydomain.ltd"
+
+# shortcut to inbox, sent…
+macro index gi "<change-folder> =myaccount/Inbox"<enter>
+macro index gs "<change-folder> =myaccount/Envoyes"<enter>
+macro index gt "<change-folder> =myaccount/Corbeille"<enter>
+macro index gp "<change-folder> =myaccount/Spam"<enter>
+macro index gd "<change-folder> =myaccount/Brouillons"<enter>

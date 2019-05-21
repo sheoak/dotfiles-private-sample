@@ -1,0 +1,16 @@
+Host *
+AddressFamily inet
+Ciphers aes256-ctr,aes192-ctr,aes128-ctr
+CheckHostIP yes
+Compression no
+ConnectionAttempts 1
+ConnectTimeout 10
+#ForwardX11 yes
+#SendEnv WINDOWID
+ForwardX11 no
+ServerAliveInterval 100
+
+Host mycustomhost
+StrictHostKeyChecking no
+HostName mydomain.ltd
+User myusername
