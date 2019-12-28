@@ -1,0 +1,13 @@
+# udiskie configuration to automount luks encrypted disks
+
+# to find device id: sudo blkid -f
+# to generate keyfile:
+# sudo cryptsetup luksAddKey /dev/sdaX ~/system/yourkey.key
+# check keyfile access rights!
+
+device_config:
+- id_uuid: <device-uuid>
+  keyfile: ~/system/yourkeyfile.key
+
+- id_uuid: <another-device-uuid>
+  keyfile: ~/system/yourotherkeyfile.key
